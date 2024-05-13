@@ -57,5 +57,10 @@ namespace Authentication
             con.Close();
 
         }
+
+        private void productName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

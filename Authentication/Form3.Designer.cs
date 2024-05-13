@@ -32,8 +32,7 @@
             this.search = new System.Windows.Forms.Button();
             this.productId = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.productName = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,7 +46,7 @@
             // 
             // search
             // 
-            this.search.Location = new System.Drawing.Point(93, 126);
+            this.search.Location = new System.Drawing.Point(93, 85);
             this.search.Name = "search";
             this.search.Size = new System.Drawing.Size(75, 23);
             this.search.TabIndex = 1;
@@ -71,29 +70,21 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Product ID";
             // 
-            // label2
+            // button1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(93, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Name";
-            // 
-            // productName
-            // 
-            this.productName.Location = new System.Drawing.Point(209, 76);
-            this.productName.Name = "productName";
-            this.productName.Size = new System.Drawing.Size(183, 20);
-            this.productName.TabIndex = 5;
+            this.button1.Location = new System.Drawing.Point(250, 84);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.productName);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.productId);
             this.Controls.Add(this.search);
@@ -113,7 +104,6 @@
         private System.Windows.Forms.Button search;
         private System.Windows.Forms.TextBox productId;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox productName;
+        private System.Windows.Forms.Button button1;
     }
 }
