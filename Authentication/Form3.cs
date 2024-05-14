@@ -73,7 +73,7 @@ namespace Authentication
 
 
             SqlCommand cmd = new SqlCommand();
-
+            //specifying the stored Procedured
             cmd.CommandText = "DeleteProduct";
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@productId", ID);

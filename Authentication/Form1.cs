@@ -41,7 +41,7 @@ namespace Authentication
 
             //validation(FirstName, LastName, Email, Password, ConfirmPassword);
 
-            Form3 f2 = new Form3();
+            bulkData f2 = new bulkData();
             f2.Show();
             this.Hide();
             
