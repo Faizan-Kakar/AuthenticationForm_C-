@@ -39,12 +39,12 @@ namespace Authentication
 
             //To Perform Validation
 
-            validation(FirstName, LastName, Email, Password, ConfirmPassword);
-            /*
-            logIn f2 = new logIn();
+            //validation(FirstName, LastName, Email, Password, ConfirmPassword);
+
+            Form3 f2 = new Form3();
             f2.Show();
             this.Hide();
-            */
+            
         }
 
         
